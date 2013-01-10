@@ -1,5 +1,5 @@
 // Base font size in px
-$base-font-size: 16px;
+$base-font-size: 16;
 
 // Px to em sizing 
 @function calc-em($size, $context: $base-font-size) {
@@ -13,6 +13,6 @@ $base-font-size: 16px;
 }
 
 // Breakpoints
-$small-ish: ;
-$medium-ish: ;
-$big-ish: ;
+// $small: ;
+// $medium: ;
+// $big: ;
