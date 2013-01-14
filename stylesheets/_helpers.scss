@@ -1,0 +1,28 @@
+/*
+ * Helpers
+ *
+ * @todo Rename this to something better
+ */
+
+%ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+  } 
+}
+
+%clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
