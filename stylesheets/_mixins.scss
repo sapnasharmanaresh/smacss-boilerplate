@@ -1,20 +1,28 @@
+//
 // Px to em sizing 
+//
 @function em($size, $context: $base-font-size) {
   @return ($size / $context) + em;
 }
 
+//
 // Px to rem sixing
+//
 @function rem($size, $context: $base-font-size) {
   @return ($side / context) + rem;
 }
 
+//
 // Px to rem sizing with px fallout
+//
 @mixin font-size($size) {
   font-size: $size + px;
   font-size: ($size / $base-font-size) + rem;
 }
 
+//
 // Breakpoints
+//
 @mixin breakpoint($point) {
 
   @if $point == small-ish {
@@ -31,6 +39,36 @@
     @media only screen and (min-width: $big) {
       @content;
     }
+  }
+
+}
+
+//
+//  Hidpi
+//
+@mixin hidpi($density: 2) {
+  
+  @media 
+  only screen and (-webkit-min-device-pixel-ratio: $density),
+  only screen and (     -o-min-device-pixel-ratio: $density / 1),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: $density + dppx)  {
+    @content; 
+  }
+
+}
+
+// 
+// Animations
+//
+@mixin keyframes($name) {
+  
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+
+  @keyframes #{$name} {
+    @content;
   }
 
 }
