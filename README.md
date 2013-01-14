@@ -5,6 +5,7 @@ A 'naked' boilerplate for quickly starting off your projects. The CSS is handled
 
 ## Features
 
-- Uses 'normalize.css' by [Nicolas Gallagher](https://github.com/necolas)
-- SMACSS
-- Px to em and px to rem mixins
+* Uses 'normalize.css' by [Nicolas Gallagher](https://github.com/necolas)
+* SMACSS folder layout
+* Px to em and px to rem mixins
+* Keyframe animation mixins

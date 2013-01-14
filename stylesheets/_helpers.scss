@@ -1,8 +1,27 @@
 /*
  * Helpers
- *
- * @todo Rename this to something better
  */
+%no-bullets {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+%l-stacked {
+  @extend %no-bullets;
+}
+
+%l-inline {
+  @extend %no-bullets;
+
+  > li {
+    display: inline;
+  }
+  
+  a {
+    display: inline-block;
+  }
+}
 
 %ir {
   background-color: transparent;
