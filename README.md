@@ -7,5 +7,5 @@ A 'naked' boilerplate for quickly starting off your projects. The CSS is handled
 
 * Uses 'normalize.css' by [Nicolas Gallagher](https://github.com/necolas)
 * SMACSS folder layout
-* Px to em and px to rem mixins
-* Keyframe animation mixins
+* Px to em and px to rem mixin
+* Keyframe animation mixin
