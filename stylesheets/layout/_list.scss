@@ -12,9 +12,10 @@
   }
 }
 
-.l-inline-wide {
+// Repsonsive
+.r-inline {
   // Change the breakpoint to when you want your list items to be inline
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
     > li {
       display: inline-block;
     }
