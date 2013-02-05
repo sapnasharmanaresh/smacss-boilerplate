@@ -1,6 +1,3 @@
-.l-stacked {
-}
-
 .l-inline {
   > li {
     display: inline-block;
@@ -11,7 +8,7 @@
   }
 }
 
-// Repsonsive
+// .r are the repsonsives helpers
 .r-inline {
   // Change the breakpoint to when you want your list items to be inline
   @include breakpoint(small) {
