@@ -2,21 +2,13 @@
   > li {
     display: inline-block;
   }
-
-  a {
-    display: inline-block;
-  }
 }
 
-// .r are the repsonsives helpers
-.r-inline {
+.l-stacked-inline {
+  
   // Change the breakpoint to when you want your list items to be inline
   @include breakpoint(small) {
     > li {
-      display: inline-block;
-    }
-
-    a {
       display: inline-block;
     }
   }
