@@ -1,22 +1,5 @@
-%no-bullets {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-@mixin nav {
-  @extend %no-bullets;
-
-  > li {
-    display: inline-block;
-  }
-
-  a {
-    display: inline-block;
-  }
-}
-
-%nav {
+// Change this helper name to something else
+.blocklist {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
