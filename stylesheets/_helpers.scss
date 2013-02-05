@@ -4,22 +4,6 @@
   padding-left: 0;
 }
 
-%l-stacked {
-  @extend %no-bullets;
-}
-
-%l-inline {
-  @extend %no-bullets;
-
-  > li {
-    display: inline;
-  }
-  
-  a {
-    display: inline-block;
-  }
-}
-
 %ir {
   background-color: transparent;
   border: 0;
