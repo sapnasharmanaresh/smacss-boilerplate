@@ -4,6 +4,24 @@
   padding-left: 0;
 }
 
+@mixin nav {
+  @extend %no-bullets;
+
+  > li {
+    display: inline-block;
+  }
+
+  a {
+    display: inline-block;
+  }
+}
+
+%nav {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 %ir {
   background-color: transparent;
   border: 0;

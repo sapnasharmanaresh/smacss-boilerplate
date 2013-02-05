@@ -10,15 +10,3 @@
     float: left;
   }
 }
-
-.l-stacked-inline {
-  @extend %clearfix;
-  @extend %no-bullets;
-
-  // Change the breakpoint to whatever that suits
-  @include breakpoint(medium) {
-    > li {
-      float: left;
-    }
-  }
-}
