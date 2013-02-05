@@ -1,0 +1,16 @@
+.media {
+  @extend %clearfix;
+}
+
+.media-img {
+  float: left;
+  margin-right: em(10);
+}
+
+.media-img--left {
+  float: left;
+}
+
+.media-img--right {
+  float: right;
+}
