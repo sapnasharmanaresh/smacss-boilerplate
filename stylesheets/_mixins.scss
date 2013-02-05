@@ -20,6 +20,15 @@
   font-size: ($size / $base-font-size) + rem;
 }
 
+
+//
+// Selection
+//
+@mixin selection() {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
 //
 // Breakpoints
 //

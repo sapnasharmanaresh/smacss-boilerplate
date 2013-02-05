@@ -16,13 +16,11 @@ body {
 }
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  @include selection();
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  @include selection();
 }
 
 /* Forms
