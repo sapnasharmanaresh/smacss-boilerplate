@@ -23,6 +23,10 @@ body {
   @include selection();
 }
 
+img {
+  vertical-align: middle;
+}
+
 /* Forms
    ========================================================================== */
 
