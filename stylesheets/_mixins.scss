@@ -32,19 +32,19 @@
 //
 // Breakpoints
 //
-@mixin breakpoint($point) {
+@mixin respond-to($screen) {
 
-  @if $point == small{
+  @if $screen == small{
     @media only screen and (min-width: $small) {
       @content;
     }
   }
-  @else if $point == medium {
+  @else if $screen == medium {
     @media only screen and (min-width: $medium) {
       @content;
     }
   }
-  @else if $point == big {
+  @else if $screen == big {
     @media only screen and (min-width: $big) {
       @content;
     }
