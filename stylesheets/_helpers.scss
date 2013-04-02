@@ -1,8 +1,3 @@
-%center {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 %ir {
   background-color: transparent;
   border: 0;
@@ -15,7 +10,6 @@
   } 
 }
 
-// Change this to a class instead?
 %clearfix {
   &:before,
   &:after {
@@ -25,4 +19,11 @@
   &:after {
     clear: both;
   }
+}
+
+%no-bullets {
+  list-style: none;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
 }

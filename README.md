@@ -11,7 +11,3 @@ A 'naked' boilerplate for quickly starting off your projects. The CSS is handled
 * Added module abstracts
 * Px to em and px to rem mixin
 * Keyframe animation mixin (temp)
-
-## Todo
-
-* Rename container.scss to something else

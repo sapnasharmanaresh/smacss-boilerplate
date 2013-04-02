@@ -1,15 +1,3 @@
-.l-inline {
-  > li {
-    display: inline-block;
-  }
-}
-
-.l-stacked-inline {
-  
-  // Change the breakpoint to when you want your list items to be inline
-  @include breakpoint(small) {
-    > li {
-      display: inline-block;
-    }
-  }
+.l-grid {
+  @extend %no-bullets;
 }

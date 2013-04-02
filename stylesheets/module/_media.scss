@@ -3,7 +3,7 @@
 }
 
 .media-img {
-  margin-right: em(10);
+  // Add the width of the image
 }
 
 .media-img--left {
@@ -17,8 +17,6 @@
 /*
  * 1. Create new block formatting context in modern browsers
  * 2. Avoid shrink-wrap behaviour of table-cell
- * 3. Override for IE6/7
- * 4. Create new block formatting context in IE6/7
  * Alternatively, use `overflow:hidden` if clipping is OK
  * www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
  * facebook.com
@@ -27,6 +25,4 @@
 .imgblock .content {
     display: table-cell; /* 1 */
     width: 10000px; /* 2 */
-    *width: auto; /* 3 */
-    *zoom: 1; /* 4 */
 }
