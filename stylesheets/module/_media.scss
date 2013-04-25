@@ -2,15 +2,11 @@
   @extend %clearfix;
 }
 
-.media-img {
-  // Add the width of the image
-}
-
-.media-img--left {
+.media-pull-left {
   float: left;
 }
 
-.media-img--right {
+.media-pull-right {
   float: right;
 }
 
@@ -22,7 +18,7 @@
  * facebook.com
 */
 
-.imgblock .content {
+.media-content {
     display: table-cell; /* 1 */
     width: 10000px; /* 2 */
 }
