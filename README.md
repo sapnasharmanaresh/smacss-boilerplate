@@ -10,4 +10,3 @@ A 'naked' boilerplate for quickly starting off your projects. The CSS is handled
 * SMACSS folder layout
 * Added module abstracts
 * Px to em and px to rem mixin
-* Keyframe animation mixin (temp)
