@@ -1,0 +1,10 @@
+.flag {
+  display: table;
+  width: 100%;
+}
+
+.flag-image,
+.flag-body {
+  display: table-cell;
+  vertical-align: middle;
+}
