@@ -3,8 +3,9 @@
   width: 100%;
 }
 
+// @todo rename .flag-image to something
 .flag-image,
-.flag-body {
+.flag-content {
   display: table-cell;
   vertical-align: middle;
 }
