@@ -1,11 +1,15 @@
+/**
+ * The flag object is similar to the media object but with the vertical aligment difference.
+ * http://csswizardry.com/2013/05/the-flag-object/
+*/
+
 .flag {
   display: table;
   width: 100%;
 }
 
-// @todo rename .flag-image to something
-.flag-image,
-.flag-content {
+.flag-pull-left,
+.flag-pull-right {
   display: table-cell;
   vertical-align: middle;
 }

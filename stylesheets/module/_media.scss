@@ -1,3 +1,7 @@
+/**
+ * The media object is an image to the left, with descriptive content to the right.
+*/
+
 .media {
   @extend %clearfix;
 }
@@ -10,7 +14,7 @@
   float: right;
 }
 
-/*
+/**
  * 1. Create new block formatting context in modern browsers
  * 2. Avoid shrink-wrap behaviour of table-cell
  * Alternatively, use `overflow:hidden` if clipping is OK
@@ -18,7 +22,7 @@
  * facebook.com
 */
 
-.media-content {
+.media-body {
   display: table-cell; /* 1 */
   width: 10000px; /* 2 */
 }
