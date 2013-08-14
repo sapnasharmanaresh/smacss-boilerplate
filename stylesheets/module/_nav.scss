@@ -3,11 +3,7 @@
 */
 
 .nav {
-  @extend %no-bullets;
-
-  > li {
-    display: inline-block;
-  }
+  @extend .l-inline;
   
   a {
     display: inline-block;
