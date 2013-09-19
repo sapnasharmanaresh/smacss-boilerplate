@@ -21,6 +21,9 @@
 }
 
 // Placeholder
+@mixin placeholder() {
+  color: #999;
+}
 
 // Breakpoints
 @mixin respond-to($screen) {
