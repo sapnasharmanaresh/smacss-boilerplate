@@ -49,6 +49,6 @@
 // Retina image, uses Bourbon's hidpi mixin for now
 @mixin retina($imagename, $extension: jpg) {
   @include hidpi() {
-    background-image: url($imagename + '@2x.' $extension);
+    background-image: url($imagename + '@2x.' + $extension);
   }
 }
