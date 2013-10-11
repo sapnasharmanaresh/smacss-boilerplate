@@ -1,0 +1,19 @@
+/**
+ * Use this in conjunction with .l-grid to remove the the right margin on 
+ * the outer item.
+ *
+ * Example HTML:
+ *
+ * <ul class="l-grid blocks-2">
+ *   <li class="block-item"></li>
+ *   <li class="block-item"></li>
+ * </ul>
+ */
+ 
+.blocks-3 {
+  > li {
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+}
