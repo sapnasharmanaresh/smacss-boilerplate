@@ -9,9 +9,10 @@
 }
 
 // Px to rem sizing with px fallout
-@mixin font-size($size) {
+@mixin font-size($size, $weight: 400) {
   font-size: $size + px;
   font-size: ($size / $base-font-size) + rem;
+  font-weight: $weight;
 }
 
 // Selection
