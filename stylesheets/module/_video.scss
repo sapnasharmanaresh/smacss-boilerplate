@@ -4,20 +4,19 @@
  *
  * Example HTML:
  * 
- * <div class="video">
- *   <iframe class="video-iframe" src=""></iframe>
+ * <div class="flexvideo">
+ *   <iframe class="flexvideo-iframe" src=""></iframe>
  * </div>
  */
- 
 
-.video {
+.flexvideo {
   height: 0;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   position: relative;
 }
 
-.video-iframe {
+.flexvideo-iframe {
   height: 100%;
   position: absolute;
   top: 0;
